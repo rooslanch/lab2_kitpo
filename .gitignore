@@ -45,3 +45,22 @@ build/
 
 ### Scala ###
 .bsp/
+
+### Temp/debug output ###
+compile_err.txt
+compile_out.txt
+demo_*.txt
+gui_err.txt
+gui_out.txt
+gui_run_err.txt
+gui_run_out.txt
+mains_err.txt
+mains_out.txt
+run_err.txt
+run_out.txt
+update_err.txt
+update_out.txt
+*.log
+
+### Binary tools ###
+tools/
