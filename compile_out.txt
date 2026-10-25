@@ -1,0 +1,95 @@
+[info] welcome to sbt 2.0.11 (Eclipse Adoptium Java 21.0.6)
+[info] loading project definition from C:\Users\Р СѓСЃР»Р°РЅ\IdeaProjects\lab2_kitpo\project
+[info] set current project to lab2_kitpo (in build file:/C:/Users/Р СѓСЃР»Р°РЅ/IdeaProjects/lab2_kitpo/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[info] compiling 11 Scala sources to C:\Users\Руслан\IdeaProjects\lab2_kitpo\target\out\jvm\scala-3.9.0\lab2_kitpo\classes ...
+[error] -- Error: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:1:0 
+[error] 1 |?package lab2.gui
+[error]   |^
+[error]   |illegal character '\ufeff'
+[error] -- [E049] Reference Error: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:76:8 
+[error] 76 |        typeSelector,
+[error]    |        ^^^^^^^^^^^^
+[error]    |Reference to typeSelector is ambiguous.
+[error]    |It is both defined in object GuiDemo
+[error]    |and inherited subsequently in anonymous class scalafx.scene.layout.HBox {...}
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:74:6 
+[error] 74 |      children = Seq(
+[error]    |      ^^^^^^^^
+[error]    |None of the overloaded alternatives of method children_= in class Pane with types
+[error]    | (n: scalafx.scene.Node): Unit
+[error]    | (c: Iterable[scalafx.scene.Node]): Unit
+[error]    |match arguments (Seq[scalafx.scene.control.Label | String | (scalafx.scene.control.TextField |
+[error]    |  scalafx.scene.control.Button)])
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:60:30 
+[warn] 60 |    formatButton.onAction = _ => onToggleFormat()
+[warn]    |                            ^^^^^^^^^^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:79:45 
+[warn] 79 |        new Button("Add End") { onAction = _ => onAddEnd(); defaultButton = true },
+[warn]    |                                           ^^^^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:80:42 
+[warn] 80 |        new Button("Find") { onAction = _ => onFind() }
+[warn]    |                                        ^^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:90:44 
+[warn] 90 |        new Button("Insert") { onAction = _ => onInsert() },
+[warn]    |                                          ^^^^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:91:41 
+[warn] 91 |        new Button("Get") { onAction = _ => onGet() },
+[warn]    |                                       ^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:92:44 
+[warn] 92 |        new Button("Remove") { onAction = _ => onRemove() }
+[warn]    |                                          ^^^^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:99:53 
+[warn] 99 |        new Button("Sort (in-place)") { onAction = _ => onSortImperative() },
+[warn]    |                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:100:48 
+[warn] 100 |        new Button("Sort (new)") { onAction = _ => onSortFunctional() },
+[warn]     |                                              ^^^^^^^^^^^^^^^^^^^^^^^
+[warn]     |Implicit parameters should be provided with a `using` clause.
+[warn]     |To disable the warning, please use the following option:
+[warn]     |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:102:42 
+[warn] 102 |        new Button("Save") { onAction = _ => onSave() },
+[warn]     |                                        ^^^^^^^^^^^^^
+[warn]     |Implicit parameters should be provided with a `using` clause.
+[warn]     |To disable the warning, please use the following option:
+[warn]     |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:103:42 
+[warn] 103 |        new Button("Load") { onAction = _ => onLoad() },
+[warn]     |                                        ^^^^^^^^^^^^^
+[warn]     |Implicit parameters should be provided with a `using` clause.
+[warn]     |To disable the warning, please use the following option:
+[warn]     |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: C:\Users\Руслан\IdeaProjects\lab2_kitpo\src\main\scala\lab2\gui\GuiDemo.scala:104:43 
+[warn] 104 |        new Button("Clear") { onAction = _ => onClear() }
+[warn]     |                                         ^^^^^^^^^^^^^^
+[warn]     |Implicit parameters should be provided with a `using` clause.
+[warn]     |To disable the warning, please use the following option:
+[warn]     |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] 11 warnings found
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] elapsed time: 12 s, cache 87%, 7 disk cache hits, 1 onsite task
