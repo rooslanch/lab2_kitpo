@@ -1,0 +1,4 @@
+[info] welcome to sbt 2.0.11 (Eclipse Adoptium Java 21.0.6)
+[info] loading project definition from C:\Users\Руслан\IdeaProjects\lab2_kitpo\project
+[info] set current project to lab2_kitpo (in build file:/C:/Users/Руслан/IdeaProjects/lab2_kitpo/)
+[success] elapsed time: 3 s, cache 100%, 2 disk cache hits
